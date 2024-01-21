@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    border-radius: 8px;
+}
+.taskbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.logo {
+    font-size: 1.5em;
+
+}
+.logoo{
+    width: 80px;
+
+}
+
+.menu{
+    display: flex;
+}
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.login-taskbar{
+    padding: 10px 15px;
+    font-size: 1.3em;
+    margin: 0 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-section {
+    background-image: url(/source/b6076bb4df9a3532e01ad33b4e563643.jpg);
+    background-image: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+}
+
+.landing-content {
+    text-align: center;
+}
+
+.landing-content h1 {
+    font-size: 2.5em;
+}
+
+.landing-content p {
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.login-button, .signup-button{
+    padding: 20px 30px;
+    font-size: 1.3em;
+    margin: 0 10px;
+    background-color: #ffffff;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+}
